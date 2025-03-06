@@ -1,0 +1,63 @@
+body{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:100vh;
+    background: linear-gradient(135deg, #00091a, #001f3f, #00264d);
+    width:100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.title{
+    padding-top:1rem; /* Reduced gap */
+    font-size:1.2rem;
+    text-align:center;
+    height:10%;
+    width:100%;
+}
+.box{
+    height:90%;
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box .kid{
+   border-radius:10px;
+   background: linear-gradient(to bottom, #001f3f, #00264d, #001f3f);
+   opacity:1;
+   width:50%;
+   height:70%; 
+   z-index:1;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center; 
+   box-shadow: 0 0 20px rgba(0, 225, 255, 0.4);
+}
+.kid p{
+    padding: 2rem;
+
+https://www.pornhub.com/view_
+video.php?viewkey=67b47512736ae
+    font-size:1.4rem;
+    text-align: center;
+}
+.butt{
+    padding-bottom: 2.5rem;
+}
+button{
+    border-radius:10px;
+    padding:1rem;
+    background-color:orange;
+    color:white;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background: #ff8000; /* Hover Effect */
+}

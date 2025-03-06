@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Paradise</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+<script>
+    function showAlert() {
+    alert("Thank you for choosing us! We will get back to you shortly.");
+}
+
+</script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Vacation Paradise</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#destination">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore Your Dream Vacation</h2>
+            <p>Find the best vacation spots and exclusive travel packages for you!</p>
+            <button onclick="showAlert()">Plan Your Trip</button>
+        </div>
+    </section>
+
+    <section id="destination">
+        <h2>Top Destinations</h2>
+        <div class="destinations">
+            <div class="destination">
+                <img src="https://www.worldwalks.com/wp-content/uploads/2018/12/Amazon_870-870x480.jpg" class="img-responsive img-rounded" alt="5 of the Best Jungle and Rainforest Walks on the Planet">
+                <h3>Beach Paradise</h3>
+                <p>Relax on the sun-kissed beaches of the Caribbean.</p>
+            </div>
+            <div class="destination">
+                <img src="https://via.placeholder.com/300x200" alt="Mountain">
+                <h3>Mountain Adventure</h3>
+                <p>Hike the beautiful mountains of the Swiss Alps.</p>
+            </div>
+            <div class="destination">
+                <img src="https://via.placeholder.com/300x200" alt="City">
+                <h3>City Escape</h3>
+                <p>Discover the vibrant city life of New York.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Exclusive Travel Packages</h2>
+        <div class="packages">
+            <div class="package">
+                <h3>Luxury Getaway</h3>
+                <p>All-inclusive resort with guided tours and private beach access.</p>
+                <button onclick="showAlert()">Book Now</button>
+            </div>
+            <div class="package">
+                <h3>Adventure Trek</h3>
+                <p>Experience the thrill of hiking and outdoor adventures.</p>
+                <button onclick="showAlert()">Book Now</button>
+            </div>
+            <div class="package">
+                <h3>City Explorer</h3>
+                <p>Explore top attractions, dining, and shopping in the city.</p>
+                <button onclick="showAlert()">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Amazing vacation! The beach was just perfect!"</p>
+                <p>- Sarah L.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The mountain trek was exhilarating. Highly recommend!"</p>
+                <p>- John D.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The city tour was fantastic! Loved every minute."</p>
+                <p>- Emily R.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vacation Paradise</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
